@@ -38,8 +38,8 @@ for i in range(100):
         ans = root_sum
     #TODO: Find answer
     elif 'sum of the reciprocals of the roots' in type:
-        roots_product = (coeffs[-1]/coeffs[1])*multiplier
-        roots_product_sum = (-coeffs[-2]/coeffs[1])*multiplier
+        roots_product = (coeffs[-1]/coeffs[0])*multiplier
+        roots_product_sum = (-coeffs[-2]/coeffs[0])*multiplier
         reciprocal_sum = roots_product_sum/roots_product
         ans = reciprocal_sum
     #TODO: Find answer

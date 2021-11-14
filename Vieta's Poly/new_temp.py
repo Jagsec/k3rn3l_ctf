@@ -44,7 +44,7 @@ for i in range(100):
         ans = reciprocal_sum
     #TODO: Find answer
     elif 'sum of the squares of the roots' in type:
-        squared_roots_sum = (coeffs[1]/coeffs[0])**2 - 2*(coeffs[2]/coeffs[0])
+        squared_roots_sum = (coeffs[1]/coeffs[0])**2 - 2*multiplier*(coeffs[-2]/coeffs[0])
         ans = (squared_roots_sum)
     #TODO: Find answer
     print(ans)
